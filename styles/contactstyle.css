@@ -1,0 +1,179 @@
+/*********
+
+
+  HEADER
+
+***********/
+header{
+  margin-left: 220px;
+  margin-right: 220px;
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
+}
+header .onglet {
+  width: 30px;
+  height: 30px;
+  stroke: #AA7258;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+header .douce{
+  width: 400px;
+  height: 300px;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+
+/*********
+
+FORMULAIRE
+
+***********/
+.formulaire {
+  background: white;
+  width: 1000px;
+  height: 1000px;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.test {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 25px;
+}
+
+.test div {
+  width: 50%;
+  margin-top: 20px;
+
+}
+
+.formulaire h3 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid grey;
+  font-size: 16px;
+}
+
+.formulaire p {
+  width: 550px;
+  margin: auto;
+  color: grey;
+  padding:10px;
+}
+
+
+
+.formulaire div label {
+  display: block;
+  font-weight: bold;
+}
+
+.inputBlock {
+
+  background: rgba(80, 80, 80, 0.25);
+  border: lightgrey solid 2px;
+  padding: 5px;
+  margin: 5px 0;
+  width: 270px;
+  height: 30px;
+}
+
+.inputBlock2{
+  background: rgba(80, 80, 80, 0.25);
+  border: lightgrey solid 2px;
+  padding: 20px;
+  margin: 10px 0;
+  width: 500px;
+  height: 75px;
+}
+
+.message{
+  margin-left: 25px;
+}
+
+
+
+/***********
+
+FOOTER
+
+***********/
+
+footer{
+  background-color: #ffcccc;
+  margin-top: 50px;
+}
+footer .footer{
+ display: flex;
+ justify-content: center space-around;
+ align-items: center;
+ margin-left: 140px;
+ margin-right: 140px;
+
+}
+
+footer .footer section{
+padding: 30px;
+width: 33%
+}
+
+footer .Partenaires h4{
+font-size: 20px;
+letter-spacing: 3.5px;
+}
+footer .Partenaires a{
+  display: block;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 30px;
+  text-indent: 10px;
+  font-size: 18.5px;
+  color: black;
+}
+
+footer .Contacter a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV p{
+  text-indent: 10px;
+  display: flex;
+  text-align : justify;
+}
+
+footer .Partenaires a:hover{
+  border-bottom: 1px solid black;
+
+}
+footer .Contacter h4:hover{
+  border-bottom: 1px solid black;
+
+}
+footer .CGV h4:hover{
+  border-bottom: 1px solid black;
+
+}
