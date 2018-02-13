@@ -38,7 +38,6 @@ FORMULAIRE
   background: white;
   width: 1000px;
   height: 550px;
-
   padding: 50px;
   margin: 0 auto;
 }
@@ -166,14 +165,14 @@ footer .CGV p{
 }
 
 footer .Partenaires a:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }
 footer .Contacter h4:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }
 footer .CGV h4:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }

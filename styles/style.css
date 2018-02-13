@@ -196,14 +196,14 @@ footer .CGV p{
 }
 
 footer .Partenaires a:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }
 footer .Contacter h4:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }
 footer .CGV h4:hover{
-  border-bottom: 1px solid black;
+  text-decoration: underline;
 
 }
