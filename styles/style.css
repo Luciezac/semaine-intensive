@@ -90,6 +90,46 @@ nav.menuHorizontal ul li:hover ul {
 
 /*********
 
-IMAGE
+INTRO
 
 *******/
+section{
+  background-image: url(../images/bebe.png);
+}
+
+section .intro{
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+}
+section .intro h2{
+  line-height: 43px;
+  letter-spacing: 5px;
+  font-size: 35px;
+}
+section .intro p{
+  line-height: 25px;
+}
+section .intro a{
+  text-decoration: none;
+  float: right;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+}
+section .intro_2{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+section .intro_2 h2{
+  letter-spacing: 5px;
+  font-size: 25px;
+  width: 250px;
+  height: 50px;
+}
+section .intro_2 img{
+  width: 40px;
+  height: 34px;
+  margin-top: 18px;
+}
