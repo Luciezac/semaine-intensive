@@ -85,16 +85,13 @@ nav.menuHorizontal ul li:hover ul {
   display: block;
 }
 
-.clearBoth{
-  clear: both;
-}
 
 /*********
 
 INTRO
 
 *******/
-section{
+.prez{
   background-image: url(../images/bebe.png);
 }
 
@@ -145,7 +142,68 @@ FOOTER
 ***********/
 
 footer{
+  background-color: #ffcccc;
+  margin-top: 50px;
+}
+footer .footer{
+ display: flex;
+ justify-content: center space-around;
+ align-items: center;
+ margin-left: 140px;
+ margin-right: 140px;
+
+}
+
+footer .footer section{
+padding: 30px;
+width: 33%
+}
+
+footer .Partenaires h4{
+font-size: 20px;
+letter-spacing: 3.5px;
+}
+footer .Partenaires a{
+  display: block;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 30px;
+  text-indent: 10px;
+  font-size: 18.5px;
+  color: black;
+}
+
+footer .Contacter a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV p{
+  text-indent: 10px;
   display: flex;
-  justify-content: flex-start space-around;
-  align-items: flex-end;
+  text-align : justify;
+}
+
+footer .Partenaires a:hover{
+  border-bottom: 1px solid black;
+
+}
+footer .Contacter h4:hover{
+  border-bottom: 1px solid black;
+
+}
+footer .CGV h4:hover{
+  border-bottom: 1px solid black;
+
 }
