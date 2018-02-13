@@ -11,6 +11,9 @@
 header{
   margin-left: 220px;
   margin-right: 220px;
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
 }
 header .onglet {
   width: 30px;
@@ -19,11 +22,6 @@ header .onglet {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 50px;
-}
-header {
-  display: flex;
-  justify-content: flex-start space-around;
-  align-items: flex-end;
 }
 
 header .douce{
@@ -87,6 +85,9 @@ nav.menuHorizontal ul li:hover ul {
   display: block;
 }
 
+.clearBoth{
+  clear: both;
+}
 
 /*********
 
@@ -132,4 +133,19 @@ section .intro_2 img{
   width: 40px;
   height: 34px;
   margin-top: 18px;
+}
+
+
+
+
+/***********
+
+FOOTER
+
+***********/
+
+footer{
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
 }
