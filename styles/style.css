@@ -1,5 +1,7 @@
 
-
+.clearBoth{
+  clear: both;
+}
 /*********
 
 
@@ -31,3 +33,63 @@ header .douce{
   margin-right: 50px;
   margin-top: -50px;
 }
+
+/**********
+
+NAV
+
+*********/
+
+nav.menuHorizontal{
+  background-color: #FF9900;
+}
+
+nav.menuHorizontal ul{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
+}
+
+nav.menuHorizontal ul li{
+  position: relative;
+  list-style: none;
+}
+
+nav.menuHorizontal ul li a{
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease-in;
+  background-color: #FF9900;
+  color: white;
+  will-change: auto;
+}
+
+nav.menuHorizontal ul li a:hover{
+
+  background-color: white;
+  color: #FF9900;
+}
+
+nav.menuHorizontal ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+}
+
+nav.menuHorizontal ul li:hover ul {
+  display: block;
+}
+
+
+/*********
+
+IMAGE
+
+*******/
