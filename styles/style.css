@@ -39,7 +39,7 @@ NAV
 *********/
 
 nav.menuHorizontal{
-  background-color: #FF9900;
+  background-color: #FFFFFF;
 }
 
 nav.menuHorizontal ul{
@@ -56,19 +56,26 @@ nav.menuHorizontal ul li{
   list-style: none;
 }
 
+.Onglets {
+  border-top: 1.2px solid #AA7258;
+  border-bottom: 1.2px solid #AA7258;
+
+}
+
 nav.menuHorizontal ul li a{
   display: block;
-  padding: 15px 30px;
+  padding: 5px 20px;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.1s ease-in;
-  background-color: #FF9900;
-  color: white;
+  background-color: #FFFFFF;
+  color: #AA7258;;
   will-change: auto;
 }
 
-nav.menuHorizontal ul li a:hover{
 
+
+nav.menuHorizontal ul li a:hover{
   background-color: white;
   color: #FF9900;
 }
@@ -83,6 +90,7 @@ nav.menuHorizontal ul li ul {
 
 nav.menuHorizontal ul li:hover ul {
   display: block;
+  opacity: 0.8;
 }
 
 
@@ -104,18 +112,26 @@ section .intro h2{
   line-height: 43px;
   letter-spacing: 5px;
   font-size: 35px;
+  font-family: "police",FuturaStd-Bold,serif;
 }
 section .intro p{
   line-height: 25px;
   color: #AA7258;
+<<<<<<< HEAD
+  font-family: "police",FuturaExtended, sans-serif;
+=======
+>>>>>>> 8ead8465d3146cbe320bbb398a850285ab876548
 }
 section .intro a{
   text-decoration: none;
   float: right;
-  border: 1px solid #AA7258;
-  border-radius: 7px;
+  border: 1.8px solid #AA7258;;
+  border-radius: 35px;
   padding: 5px;
   color: #AA7258;
+  font-family: "police",FuturaStd-Book,sans-serif;
+  font-size: 14px;
+
 }
 section .intro_2{
   display: flex;
@@ -132,6 +148,7 @@ section .intro_2 img{
   width: 40px;
   height: 34px;
   margin-top: 18px;
+  font-family: "police",FuturaStd-Book,sans-serif;
 }
 
 
