@@ -51,7 +51,6 @@ FORMULAIRE
 .test div {
   width: 50%;
   margin-top: 20px;
-
 }
 
 .formulaire h3 {
@@ -62,7 +61,8 @@ FORMULAIRE
   margin-top: 0;
   padding-bottom: 25px;
   border-bottom: 1px solid grey;
-  font-size: 16px;
+  font-size: 25px;
+  color: #AA7258;
 }
 
 .formulaire p {

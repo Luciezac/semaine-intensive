@@ -107,13 +107,15 @@ section .intro h2{
 }
 section .intro p{
   line-height: 25px;
+  color: #AA7258;
 }
 section .intro a{
   text-decoration: none;
   float: right;
-  border: 1px solid red;
-  border-radius: 5px;
+  border: 1px solid #AA7258;
+  border-radius: 7px;
   padding: 5px;
+  color: #AA7258;
 }
 section .intro_2{
   display: flex;
