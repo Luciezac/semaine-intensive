@@ -37,8 +37,8 @@ FORMULAIRE
 .formulaire {
   background: white;
   width: 1000px;
-  height: 1000px;
-  border-radius: 5px;
+  height: 550px;
+
   padding: 50px;
   margin: 0 auto;
 }
