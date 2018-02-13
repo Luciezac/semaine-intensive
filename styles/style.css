@@ -39,7 +39,7 @@ NAV
 *********/
 
 nav.menuHorizontal{
-  background-color: #FF9900;
+  background-color: #FFFFFF;
 }
 
 nav.menuHorizontal ul{
@@ -62,8 +62,8 @@ nav.menuHorizontal ul li a{
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.1s ease-in;
-  background-color: #FF9900;
-  color: white;
+  background-color: ##FFFFFF;
+  color: black;
   will-change: auto;
 }
 
