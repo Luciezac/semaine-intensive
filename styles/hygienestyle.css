@@ -1,0 +1,185 @@
+.clearBoth{
+  clear: both;
+}
+/*********
+
+
+  HEADER
+
+***********/
+header{
+  margin-left: 220px;
+  margin-right: 220px;
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
+}
+header .onglet {
+  width: 30px;
+  height: 30px;
+  stroke: #AA7258;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+header .douce{
+  width: 400px;
+  height: 300px;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: -50px;
+}
+
+
+/**********
+
+NAV
+
+*********/
+
+nav.menuHorizontal{
+  background-color: #FF9900;
+}
+
+nav.menuHorizontal ul{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
+}
+
+nav.menuHorizontal ul li{
+  position: relative;
+  list-style: none;
+}
+
+nav.menuHorizontal ul li a{
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease-in;
+  background-color: #FF9900;
+  color: white;
+  will-change: auto;
+}
+
+nav.menuHorizontal ul li a:hover{
+
+  background-color: white;
+  color: #FF9900;
+}
+
+nav.menuHorizontal ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+}
+
+nav.menuHorizontal ul li:hover ul {
+  display: block;
+}
+
+/***********
+
+main
+
+***********/
+
+main {
+  display: flex;
+  justify-content: flex-start space-around;
+  flex-wrap: wrap;
+}
+main img {
+  width : 200px;
+  height: 200px;
+  padding : 10px;
+  border: black solid 2px;
+  margin: 30px;
+}
+
+main div h5{
+  text-align: center;
+  font-size: 15px;
+  margin-top:  5px;
+}
+
+
+/***********
+
+FOOTER
+
+***********/
+
+footer{
+  background-color: #ffcccc;
+  margin-top: 50px;
+}
+footer .footer{
+ display: flex;
+ justify-content: center space-around;
+ align-items: center;
+ margin-left: 140px;
+ margin-right: 140px;
+
+}
+
+footer .footer section{
+padding: 30px;
+width: 33%
+}
+
+footer .Partenaires h4{
+font-size: 20px;
+letter-spacing: 3.5px;
+}
+footer .Partenaires a{
+  display: block;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 30px;
+  text-indent: 10px;
+  font-size: 18.5px;
+  color: black;
+}
+
+footer .Contacter a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV a{
+  text-decoration: none;
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 3.5px;
+  color: black;
+}
+
+footer .CGV p{
+  text-indent: 10px;
+  display: flex;
+  text-align : justify;
+}
+
+footer .Partenaires a:hover{
+  text-decoration: underline;
+
+}
+footer .Contacter h4:hover{
+  text-decoration: underline;
+
+}
+footer .CGV h4:hover{
+  text-decoration: underline;
+
+}
