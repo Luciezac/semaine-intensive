@@ -1,0 +1,33 @@
+
+
+/*********
+
+
+  HEADER
+
+***********/
+header{
+  margin-left: 220px;
+  margin-right: 220px;
+}
+header .onglet {
+  width: 30px;
+  height: 30px;
+  stroke: #AA7258;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+header {
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-end;
+}
+
+header .douce{
+  width: 400px;
+  height: 300px;
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-top: -50px;
+}
