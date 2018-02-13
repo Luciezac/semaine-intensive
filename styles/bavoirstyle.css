@@ -1,3 +1,6 @@
+.clearBoth{
+  clear: both;
+}
 /*********
 
 
@@ -27,7 +30,6 @@ header .douce{
   margin-right: 50px;
   margin-top: -50px;
 }
-
 
 
 /**********
@@ -83,82 +85,30 @@ nav.menuHorizontal ul li:hover ul {
   display: block;
 }
 
+/***********
 
-
-/*********
-
-FORMULAIRE
+main
 
 ***********/
-.formulaire {
-  background: white;
-  width: 1000px;
-  height: 550px;
-  padding: 50px;
-  margin: 0 auto;
-  margin-top: -16px;
-}
 
-.test {
+main {
   display: flex;
-  justify-content: space-around;
-  margin-left: 25px;
+  justify-content: flex-start space-around;
+  flex-wrap: wrap;
+}
+main img {
+  width : 200px;
+  height: 200px;
+  padding : 10px;
+  border: black solid 2px;
+  margin: 30px;
 }
 
-.test div {
-  width: 50%;
-  margin-top: 40px;
-}
-
-.formulaire h3 {
-  color: black;
-  text-transform: uppercase;
+main div h5{
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 0;
-  padding-bottom: 25px;
-  border-bottom: 1px solid grey;
-  font-size: 30px;
-
+  font-size: 15px;
+  margin-top:  5px;
 }
-
-.formulaire p {
-  width: 600px;
-  margin: auto;
-  color: grey;
-  font-size: 20px;
-  padding: 15px;
-}
-
-.formulaire div label {
-  display: block;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.inputBlock {
-
-  background: #fff2f5;
-  border: #ffe8f6 solid 2px;
-  padding: 5px;
-  margin: 25px 0;
-  width: 260px;
-  height: 30px;
-}
-
-.inputBlock2{
-  background: #fff2f5;
-  border: #ffe8f6 solid 2px;
-  padding: 5px;
-  margin: 25px 0;
-  width: 440px;
-  height: 75px;
-}
-
-.message{
-  margin-left: 25px;
-}
-
 
 
 /***********
