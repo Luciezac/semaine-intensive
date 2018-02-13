@@ -62,8 +62,8 @@ nav.menuHorizontal ul li a{
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.1s ease-in;
-  background-color: ##FFFFFF;
-  color: black;
+  background-color: #FFFFFF;
+  color: #AA7258;;
   will-change: auto;
 }
 
@@ -104,16 +104,21 @@ section .intro h2{
   line-height: 43px;
   letter-spacing: 5px;
   font-size: 35px;
+  font-family: "police",FuturaStd-Bold,serif;
 }
 section .intro p{
   line-height: 25px;
+  color: #AA7258;
+  font-family: "police",FuturaExtended, sans-serif;
 }
 section .intro a{
   text-decoration: none;
   float: right;
-  border: 1px solid red;
-  border-radius: 5px;
-  padding: 5px;
+  border: 1.8px solid #AA7258;;
+  border-radius: 35px;
+  padding: 8px;
+  color: #AA7258;
+  font-family: "police",FuturaStd-Book,sans-serif;
 }
 section .intro_2{
   display: flex;
@@ -130,6 +135,7 @@ section .intro_2 img{
   width: 40px;
   height: 34px;
   margin-top: 18px;
+  font-family: "police",FuturaStd-Book,sans-serif;
 }
 
 
