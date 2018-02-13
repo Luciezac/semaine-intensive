@@ -56,9 +56,15 @@ nav.menuHorizontal ul li{
   list-style: none;
 }
 
+.Onglets {
+  border-top: 1.2px solid #AA7258;
+  border-bottom: 1.2px solid #AA7258;
+
+}
+
 nav.menuHorizontal ul li a{
   display: block;
-  padding: 15px 30px;
+  padding: 5px 20px;
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.1s ease-in;
@@ -67,8 +73,9 @@ nav.menuHorizontal ul li a{
   will-change: auto;
 }
 
-nav.menuHorizontal ul li a:hover{
 
+
+nav.menuHorizontal ul li a:hover{
   background-color: white;
   color: #FF9900;
 }
@@ -83,6 +90,7 @@ nav.menuHorizontal ul li ul {
 
 nav.menuHorizontal ul li:hover ul {
   display: block;
+  opacity: 0.8;
 }
 
 
@@ -109,16 +117,21 @@ section .intro h2{
 section .intro p{
   line-height: 25px;
   color: #AA7258;
+<<<<<<< HEAD
   font-family: "police",FuturaExtended, sans-serif;
+=======
+>>>>>>> 8ead8465d3146cbe320bbb398a850285ab876548
 }
 section .intro a{
   text-decoration: none;
   float: right;
   border: 1.8px solid #AA7258;;
   border-radius: 35px;
-  padding: 8px;
+  padding: 5px;
   color: #AA7258;
   font-family: "police",FuturaStd-Book,sans-serif;
+  font-size: 14px;
+
 }
 section .intro_2{
   display: flex;
