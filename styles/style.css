@@ -1,96 +1,141 @@
 
-.clearBoth{
+.clearBoth {
   clear: both;
 }
 /*********
-
-
   HEADER
-
 ***********/
-header{
-  margin-left: 220px;
-  margin-right: 220px;
+
+header {
   display: flex;
-  justify-content: flex-start space-around;
-  align-items: flex-end;
-}
-header .onglet {
-  width: 30px;
-  height: 30px;
-  stroke: #AA7258;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 50px;
+  align-items: center;
+  padding: 40px 20px 60px;
 }
 
-header .douce{
-  width: 400px;
-  height: 300px;
-  margin-left: 70px;
-  margin-right: 50px;
-  margin-top: -50px;
+header .shop,
+header .achats {
+  width: 25%;
 }
 
-/**********
-
-NAV
-
-*********/
-
-nav.menuHorizontal{
-  background-color: #FFFFFF;
+header .logo {
+  width: 50%;
 }
 
-nav.menuHorizontal ul{
+header .shop a {
   display: flex;
   flex-direction: row;
-  padding: 0;
-  display: flex;
-  justify-content: flex-start space-around;
-  align-items: flex-end;
+  align-items: center;
 }
 
-nav.menuHorizontal ul li{
-  position: relative;
-  list-style: none;
+header .shop a img {
+  margin-right: 10px;
 }
 
-.Onglets {
-  border-top: 1.2px solid #AA7258;
-  border-bottom: 1.2px solid #AA7258;
-
+header .shop a p,
+header .achats a p {
+  color: #AA7258;
+  font-size: 16px;
 }
 
-nav.menuHorizontal ul li a{
+header .shop a p:hover,
+header .achats a p:hover {
+  color: #FF9900;
+}
+
+
+header .logo img {
+  width: 70%;
+  margin: 0 auto;
   display: block;
-  padding: 5px 20px;
-  text-decoration: none;
+}
+
+header .achats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .achats .search img {
+  width: 25px;
+}
+
+
+
+/**********
+  NAV
+*********/
+
+nav {
+  background-color: #FFFFFF;
+  border-top: 1px solid #AA7258;
+  border-bottom: 1px solid #AA7258;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .item {
+  padding: 0 20px;
+  position: relative;
+}
+
+nav p {
+  display: block;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 0;
+  font-size: 16px;
   text-transform: uppercase;
   transition: all 0.1s ease-in;
   background-color: #FFFFFF;
-  color: #AA7258;;
+  color: #AA7258;
   will-change: auto;
 }
 
+nav p:before {
+  content:'';
+  position: absolute;
+  background-image: url('../images/arrow.png');
+  background-size: cover;
+  background-position: center;
+  width: 20px;
+  height: 30px;
+  right: -28px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
-
-nav.menuHorizontal ul li a:hover{
+nav p:hover {
   background-color: white;
   color: #FF9900;
 }
 
-nav.menuHorizontal ul li ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 200px;
+nav ul li a {
+  display: block;
+  color: #AA7258;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 8px 0;
+  line-height: 1.2;
 }
 
-nav.menuHorizontal ul li:hover ul {
+nav ul li a:hover {
+  color: #FF9900;
+}
+
+nav ul {
+  display: none;
+  position: absolute;
+  background: white;
+  opacity: 0.9;
+  width: 100%;
+  padding: 0 20px;
+  left: 0;
+}
+
+nav .item:hover ul {
   display: block;
-  opacity: 0.8;
 }
 
 
@@ -99,59 +144,65 @@ nav.menuHorizontal ul li:hover ul {
 INTRO
 
 *******/
-.prez{
-  background-image: url(../images/bebe.png);
+.img-cover {
+  background-image: url('../images/bebe.png');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-section .intro{
+section .texte {
   width: 400px;
-  height: 400px;
   padding: 50px;
 }
-section .intro h2{
+
+section .texte h2 {
   line-height: 43px;
   letter-spacing: 5px;
   font-size: 35px;
   font-family: "police",FuturaStd-Bold,serif;
 }
-section .intro p{
+
+section .texte p{
   line-height: 25px;
   color: #AA7258;
-<<<<<<< HEAD
   font-family: "police",FuturaExtended, sans-serif;
-=======
->>>>>>> 8ead8465d3146cbe320bbb398a850285ab876548
 }
-section .intro a{
+
+section .texte a {
   text-decoration: none;
   float: right;
-  border: 1.8px solid #AA7258;;
+  border: 2px solid #AA7258;
   border-radius: 35px;
-  padding: 5px;
-  color: #AA7258;
+  padding: 5px 10px;
+  color: black;
   font-family: "police",FuturaStd-Book,sans-serif;
   font-size: 14px;
-
 }
-section .intro_2{
+
+section .texte a:hover {
+  color: #AA7258;
+}
+
+
+section .intro_2 {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 20px;
+  padding-bottom: 10px;
 }
-section .intro_2 h2{
+
+section .intro_2 h2 {
   letter-spacing: 5px;
   font-size: 25px;
-  width: 250px;
-  height: 50px;
+  margin-right: 10px;
 }
-section .intro_2 img{
+
+section .intro_2 img {
   width: 40px;
   height: 34px;
-  margin-top: 18px;
   font-family: "police",FuturaStd-Book,sans-serif;
 }
-
-
 
 
 /***********
@@ -160,29 +211,29 @@ FOOTER
 
 ***********/
 
-footer{
+footer {
   background-color: #ffcccc;
   margin-top: 50px;
 }
-footer .footer{
- display: flex;
- justify-content: center space-around;
- align-items: center;
- margin-left: 140px;
- margin-right: 140px;
 
+footer .footer {
+   display: flex;
+   justify-content: center space-around;
+   align-items: center;
+   margin-left: 140px;
+   margin-right: 140px;
 }
 
-footer .footer section{
-padding: 30px;
-width: 33%
+footer .footer section {
+  padding: 30px;
+  width: 33%
 }
 
-footer .Partenaires h4{
-font-size: 20px;
-letter-spacing: 3.5px;
+footer .Partenaires h4 {
+  font-size: 20px;
+  letter-spacing: 3.5px;
 }
-footer .Partenaires a{
+footer .Partenaires a {
   display: block;
   text-decoration: none;
   text-transform: none;
@@ -192,7 +243,7 @@ footer .Partenaires a{
   color: black;
 }
 
-footer .Contacter a{
+footer .Contacter a {
   text-decoration: none;
   text-transform: none;
   font-size: 20px;
@@ -200,7 +251,7 @@ footer .Contacter a{
   color: black;
 }
 
-footer .CGV a{
+footer .CGV a {
   text-decoration: none;
   text-transform: none;
   font-size: 20px;
@@ -208,21 +259,20 @@ footer .CGV a{
   color: black;
 }
 
-footer .CGV p{
+footer .CGV p {
   text-indent: 10px;
   display: flex;
   text-align : justify;
 }
 
-footer .Partenaires a:hover{
+footer .Partenaires a:hover {
   text-decoration: underline;
 
 }
-footer .Contacter h4:hover{
+footer .Contacter h4:hover {
   text-decoration: underline;
 
 }
-footer .CGV h4:hover{
+footer .CGV h4:hover {
   text-decoration: underline;
-
 }
