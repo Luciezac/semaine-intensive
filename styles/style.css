@@ -1,7 +1,4 @@
 
-.clearBoth {
-  clear: both;
-}
 /*********
   HEADER
 ***********/
@@ -61,6 +58,11 @@ header .achats .search img {
 }
 
 
+.account{
+  border: 2px solid #AA7258;
+  border-radius: 35px;
+  padding: 5px 10px;
+}
 
 /**********
   NAV

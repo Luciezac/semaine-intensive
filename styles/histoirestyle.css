@@ -56,11 +56,14 @@ header .achats {
 header .achats .search img {
   width: 25px;
 }
+
 .account{
   border: 2px solid #AA7258;
   border-radius: 35px;
   padding: 5px 10px;
 }
+
+
 
 /**********
   NAV
@@ -138,30 +141,85 @@ nav .item:hover ul {
   display: block;
 }
 
-/***********
+/***************
 
-main
+MAIN
 
-***********/
+****************/
 
 main {
   display: flex;
   justify-content: flex-start space-around;
-  flex-wrap: wrap;
-}
-main img {
-  width : 200px;
-  height: 200px;
-  padding : 10px;
-  border: black solid 2px;
-  margin: 30px;
+  align-items: flex-start;
+  height:440px;
+  overflow:hidden;
 }
 
-main div h5{
-  text-align: center;
-  font-size: 15px;
-  margin-top:  5px;
+main .explications{
+  width: 50%;
+  background-color: #a08778;
+  color: white;
+  padding: 25px;
+  text-align: justify;
 }
+main .explications div{
+  display: flex;
+  justify-content: flex-start space-around;
+  flex-direction: wrap;
+  border-bottom: 1px solid white;
+
+}
+
+main .explications .crea img{
+  width: 130px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+main .explications p{
+  padding : 5px;
+  line-height: 150%;
+}
+
+main .presentation{
+  width: 50%;
+  height: 440px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative; /* tjr mettre position relative ta race */
+}
+
+article.presentation img{
+  height: 440px;
+  position: absolute;
+}
+
+main  article.presentation h1{
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 400px;
+  color: black;
+  font-size: 40px;
+  padding: 40px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+ .titre {
+  position: relative;
+  z-index: 100;
+  width:70%;
+  background-color:#ffffff94;
+  text-align:center;
+  border-radius: 20px;
+}
+
+
+
+
 
 
 /***********
