@@ -4,39 +4,55 @@
     <meta charset="utf-8"/>
     <title> Douce de Po</title>
     <meta name="description" content="Description du site Douce de Po"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/contactstyle.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/header-nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
   </head>
+
+
   <body>
     <header>
-      <div class="shop">
-        <a href="#">
-          <img src="../images/shop.png" alt="Magasin">
-          <p>Nos points de ventes</p>
-        </a>
+      <div class="open-navMobile">
+        <img src="../images/burger.png">
       </div>
-      <a href="../index.html" class="logo">
+      <div class="contact">
+        <a href="#">
+          <p class="call">Nous contacter</p>
+        </a>
+        <div class="logonet">
+          <a href="https://www.facebook.com/doucedepo.officiel/" title="Facebook"><img
+          src="../images/facebook.png" alt="Widget facebook"/></a>
+          <a href="https://www.instagram.com/pollennidoucedepo/" title="Instagram"><img
+          src="../images/instagram.png" alt="Widget instagram"/></a>
+          <a href="https://www.youtube.com/" title="Youtube"><img
+          src="../images/youtube.png" alt="Widget youtube"/></a>
+        </div>
+      </div>
+      <a href="#" class="logo">
         <img src="../images/logosite.png" alt="logo de la marque Douce de Po">
       </a>
       <div class="achats">
-        <a href="contact.html"><p>Nous contacter</p></a>
+        <a href="blog/contact.html"><p>Nous contacter</p></a>
         <a href="#" class="account"><p>Mon compte</p></a>
         <a href="#" class="search"><img src="../images/loupe.png" alt="logo de la loupe"></a>
       </div>
     </header>
-
     <nav>
+      <img class="close-navMobile" src="../images/close.png">
       <div class='item'>
         <p>hygiène</p>
         <ul>
           <li><a href="#" title="Item">lingettes lavables</a> </li>
-          <li><a href="hygiene.html" title="Item">tapis à langer</a> </li>
+          <li><a href="blog/hygiene.html" title="Item">tapis à langer</a> </li>
         </ul>
       </div>
       <div class='item'>
         <p>repas</p>
         <ul>
-          <li><a href="bavoirs.html" title="Item">bavoirs</a> </li>
+          <li><a href="blog/bavoirs.html" title="Item">bavoirs</a> </li>
           <li><a href="#" title="Item">serviette de table</a> </li>
         </ul>
       </div>
@@ -88,7 +104,7 @@
     <p> Pour tout renseignement, demande ou commande particulière (sur-mesure), n’hésitez pas à remplir le formulaire
 que vous trouverez ci-dessous. </p>
     <p> Nous ferons le maximum pour vous répondre dans les meilleurs délais.</p>
-    <div class="test">
+    <div class="inputs">
       <div>
         <label for="name">Nom (obligtoire)</label>
         <input class="inputBlock" type="text" name="nom" id="name" placeholder="Lucie">
@@ -136,5 +152,8 @@ que vous trouverez ci-dessous. </p>
         </section>
       </div>
     </footer>
+  
 
+  <script src="js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="js/app.js"></script>
   </body>

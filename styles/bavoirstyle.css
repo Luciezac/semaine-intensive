@@ -9,7 +9,7 @@ header {
   padding: 40px 20px 60px;
 }
 
-header .shop,
+header .contact,
 header .achats {
   width: 25%;
 }
@@ -18,23 +18,41 @@ header .logo {
   width: 50%;
 }
 
-header .shop a {
+header .logonet{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
+header .contact {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
   align-items: center;
 }
 
-header .shop a img {
-  margin-right: 10px;
+header .call {
+  margin-left: 20px;
 }
 
-header .shop a p,
+header .contact a  {
+  display: block;
+  margin-right: 0px;
+}
+
+header .contact  img {
+  margin-left: 10px;
+  width: 32px;
+}
+
+header .contact a p,
 header .achats a p {
   color: #AA7258;
   font-size: 16px;
 }
 
-header .shop a p:hover,
+header .contact a p:hover,
 header .achats a p:hover {
   color: #FF9900;
 }
@@ -56,6 +74,8 @@ header .achats {
 header .achats .search img {
   width: 25px;
 }
+
+
 .account{
   border: 2px solid #AA7258;
   border-radius: 35px;
@@ -138,6 +158,54 @@ nav .item:hover ul {
   display: block;
 }
 
+
+/*******
+titre
+********/
+.container{
+  background-image: url(../images/bavoirs/bavoir.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.presentation  .titre{
+  height: 350px;
+  margin: 0 auto;
+  width: 800px;
+}
+.presentation .titre h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  color: white
+
+
+}
+
+.presentation .titre p{
+  text-align: center;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 26px;
+  color: #fbf4eb;
+  margin-bottom: 25px;
+}
+
+.presentation a{
+  text-decoration: none;
+  float: right;
+  border: 2px solid #AA7258;
+  border-radius: 35px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 14px;
+}
+
+
 /***********
 
 main
@@ -153,7 +221,7 @@ main img {
   width : 200px;
   height: 200px;
   padding : 10px;
-  border: black solid 2px;
+  border-radius: 15px;
   margin: 30px;
 }
 
@@ -171,8 +239,8 @@ FOOTER
 ***********/
 
 footer {
-  background-color: #ffcccc7a;
-  margin-top: 50px;
+  background-color: #caa1a15c;
+  margin-top: 20px;
 }
 
 footer .footer {

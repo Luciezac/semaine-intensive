@@ -1,147 +1,5 @@
 
 /*********
-  HEADER
-***********/
-
-header {
-  display: flex;
-  align-items: center;
-  padding: 40px 20px 60px;
-}
-
-header .shop,
-header .achats {
-  width: 25%;
-}
-
-header .logo {
-  width: 50%;
-}
-
-header .shop a {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-header .shop a img {
-  margin-right: 10px;
-}
-
-header .shop a p,
-header .achats a p {
-  color: #AA7258;
-  font-size: 16px;
-}
-
-header .shop a p:hover,
-header .achats a p:hover {
-  color: #FF9900;
-}
-
-
-header .logo img {
-  width: 70%;
-  margin: 0 auto;
-  display: block;
-}
-
-header .achats {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-header .achats .search img {
-  width: 25px;
-}
-
-
-.account{
-  border: 2px solid #AA7258;
-  border-radius: 35px;
-  padding: 5px 10px;
-}
-
-/**********
-  NAV
-*********/
-
-nav {
-  background-color: #FFFFFF;
-  border-top: 1px solid #AA7258;
-  border-bottom: 1px solid #AA7258;
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-around;
-}
-
-nav .item {
-  padding: 0 20px;
-  position: relative;
-}
-
-nav p {
-  display: block;
-  cursor: pointer;
-  position: relative;
-  padding: 5px 0;
-  font-size: 16px;
-  text-transform: uppercase;
-  transition: all 0.1s ease-in;
-  background-color: #FFFFFF;
-  color: #AA7258;
-  will-change: auto;
-}
-
-nav p:before {
-  content:'';
-  position: absolute;
-  background-image: url('../images/arrow.png');
-  background-size: cover;
-  background-position: center;
-  width: 20px;
-  height: 30px;
-  right: -28px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-nav p:hover {
-  background-color: white;
-  color: #FF9900;
-}
-
-nav ul li a {
-  display: block;
-  color: #AA7258;
-  font-size: 16px;
-  text-transform: uppercase;
-  margin: 8px 0;
-  line-height: 1.2;
-}
-
-nav ul li a:hover {
-  color: #FF9900;
-}
-
-nav ul {
-  display: none;
-  position: absolute;
-  background: white;
-  opacity: 0.9;
-  width: 100%;
-  padding: 0 20px;
-  left: 0;
-}
-
-nav .item:hover ul {
-  display: block;
-}
-
-
-/*********
 
 INTRO
 
@@ -153,38 +11,37 @@ INTRO
 }
 
 section .texte {
-  width: 400px;
+  max-width: 390px;
   padding: 50px;
 }
 
 section .texte h2 {
-  line-height: 43px;
-  letter-spacing: 5px;
-  font-size: 35px;
-  font-family: "police",FuturaStd-Bold,serif;
+  line-height: 35px;
+  letter-spacing: 3px;
+  font-size: 32px;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
-section .texte p{
+section .texte p {
+  margin-top: 10px;
   line-height: 25px;
   color: #AA7258;
-  font-family: "police",FuturaExtended, sans-serif;
+  font-family: 'Mukta Mahee', sans-serif;
 }
 
 section .texte a {
-  text-decoration: none;
   float: right;
   border: 2px solid #AA7258;
   border-radius: 35px;
   padding: 5px 10px;
   color: black;
-  font-family: "police",FuturaStd-Book,sans-serif;
+  font-family: 'Mukta Mahee', sans-serif;
   font-size: 14px;
 }
 
 section .texte a:hover {
   color: #AA7258;
 }
-
 
 section .intro_2 {
   display: flex;
@@ -203,90 +60,61 @@ section .intro_2 h2 {
 section .intro_2 img {
   width: 40px;
   height: 34px;
-  font-family: "police",FuturaStd-Book,sans-serif;
 }
 
-
-/***********
-
-FOOTER
-
-***********/
-
-footer {
-  background-color: #ffcccc7a;
-  margin-top: 50px;
+.newCollection {
+  text-align: center;
 }
 
-footer .footer {
-   display: flex;
-   justify-content: center space-around;
-   align-items: center;
-   margin-left: 140px;
-   margin-right: 140px;
-}
-
-footer .footer section {
-  padding: 30px;
-  width: 33%;
-}
-
-footer span {
-  font-size: 21px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  line-height: 67px;
-}
-
-footer .Partenaires a {
-  display: block;
-  text-decoration: none;
-  text-transform: none;
-  line-height: 44px;
-  font-size: 14px;
-  color: black;
-  text-transform: uppercase;
-}
-
-
-footer .infos a {
-  text-decoration: none;
-  display: block;
-  text-transform: none;
-  font-size: 14px;
-  color: black;
-  text-transform: uppercase;
-  line-height: 44px;
-}
-
-
-
-footer .newsletter p {
-  display: flex;
-  text-align : justify;
-  line-height: 20px;
-  margin-bottom: 25px;
-  margin-top: 20px;
-}
-
-footer .newsletter input{
-  width: 100%;
-  height: 40px;
-  box-sizing: border-box;
-  letter-spacing: normal;
-  word-spacing: normal;
+.newCollection h1 {
   display: inline-block;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #AA7258;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 30px;
 }
 
-footer .Partenaires a:hover {
-  text-decoration: underline;
-
+.carousel-newCollection {
+  max-width: 460px;
+  margin: 0 auto;
 }
-footer .infos a:hover {
-  text-decoration: underline;
 
-}
-footer .newsletter h4:hover {
-  text-decoration: underline;
+
+@media screen and (max-width: 545px) {
+  section .texte h2 {
+    line-height: 1;
+    font-size: 24px;
+  }
+
+  section .texte {
+    padding: 25px;
+  }
+
+  section .texte p {
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  section .texte a {
+    margin-top: 10px;
+  }
+
+  section .intro_2 {
+    margin-top: 50px;
+  }
+
+  section .intro_2 h2{
+    letter-spacing: 3px;
+    font-size: 15px;
+  }
+
+  section .intro_2 img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .newCollection h1 {
+    font-size: 20px;
+  }
 }

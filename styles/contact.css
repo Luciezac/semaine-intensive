@@ -1,0 +1,72 @@
+/*********
+
+FORMULAIRE
+
+***********/
+.formulaire {
+  background: white;
+  max-width: 1000px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.formulaire h3 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-bottom: 25px;
+  border-bottom: 1px solid grey;
+  font-size: 30px;
+
+}
+
+.formulaire p {
+  max-width: 600px;
+  margin: auto;
+  color: grey;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.formulaire div label {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.inputBlock {
+  background: #fff2f5;
+  border: #ffe8f6 solid 2px;
+  padding: 5px;
+  margin: 25px 0;
+  width: 260px;
+  height: 30px;
+}
+
+.inputBlock2{
+  background: #fff2f5;
+  border: #ffe8f6 solid 2px;
+  padding: 5px;
+  margin: 25px 0;
+  width: 440px;
+  height: 75px;
+}
+
+@media screen and (max-width: 545px) {
+  .formulaire {
+    padding: 20px; 
+  }
+
+  .inputBlock2{
+    width: calc(100% - 40px);
+  }
+}

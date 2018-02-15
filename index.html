@@ -4,16 +4,34 @@
     <meta charset="utf-8"/>
     <title> Douce de Po</title>
     <meta name="description" content="Description du site Douce de Po"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="js/vendor/slick/slick.css">
+    <link rel="stylesheet" href="js/vendor/slick/slick-theme.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header-nav.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
   </head>
+
+
   <body>
     <header>
-      <div class="shop">
+      <div class="open-navMobile">
+        <img src="images/burger.png">
+      </div>
+      <div class="contact">
         <a href="#">
-          <img src="images/shop.png" alt="Magasin">
-          <p>Nos points de ventes</p>
+          <p class="call">Nous contacter</p>
         </a>
+        <div class="logonet">
+          <a href="https://www.facebook.com/doucedepo.officiel/" title="Facebook"><img
+          src="images/facebook.png" alt="Widget facebook"/></a>
+          <a href="https://www.instagram.com/pollennidoucedepo/" title="Instagram"><img
+          src="images/instagram.png" alt="Widget instagram"/></a>
+          <a href="https://www.youtube.com/" title="Youtube"><img
+          src="images/youtube.png" alt="Widget youtube"/></a>
+        </div>
       </div>
       <a href="#" class="logo">
         <img src="images/logosite.png" alt="logo de la marque Douce de Po">
@@ -24,8 +42,8 @@
         <a href="#" class="search"><img src="images/loupe.png" alt="logo de la loupe"></a>
       </div>
     </header>
-
     <nav>
+      <img class="close-navMobile" src="images/close.png">
       <div class='item'>
         <p>hygiène</p>
         <ul>
@@ -80,22 +98,26 @@
       </div>
     </nav>
 
-      <section class="img-cover">
-        <div class="texte">
-          <h2> Des textiles de qualité pour votre bébé</h2>
-          <p>Chez Douce de Po, nous garantissons la meilleur qualité pour votre bébé : bavoir, gigoteuse ou encore peluche, nos produits Made In France sont fait artisanalement afin de garantir le meilleur pour votre nourrisson. </p>
-          <a href="blog/histoire.html">En savoir plus</a>
-       </div>
-      <div class="intro_2">
-        <h2>Made in France</h2>
-        <img src="images/drapeau.png" alt="drapeau de la france">
+    <section class="img-cover">
+      <div class="texte">
+        <h2> Des textiles de qualité pour votre bébé</h2>
+        <p>Chez Douce de Po, nous garantissons la meilleur qualité pour votre bébé : bavoir, gigoteuse ou encore peluche, nos produits Made In France sont fait artisanalement afin de garantir le meilleur pour votre nourrisson. </p>
+        <a href="blog/histoire.html">En savoir plus</a>
+     </div>
+    <div class="intro_2">
+      <h2>Made in France</h2>
+      <img src="images/drapeau.png" alt="drapeau de la france">
+    </div>
+    </section>
+
+    <div class="newCollection">
+      <h1>Nouvelles collections</h1>
+      <div class="carousel-newCollection">
+          <img  src="images/BEFo.jpg" alt="First slide">
+          <img  src="images/apdr.jpg" alt="Second slide">
+          <img  src="images/bdo.jpg" alt="Third slide">
       </div>
-      </section>
-
-
-
-
-
+    </div>
 
     <footer>
       <div class="footer">
@@ -124,6 +146,8 @@
     </footer>
 
 
-   <script src="scripts/app.js"></script>
+   <script src="js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="js/vendor/slick/slick.min.js"></script>
+   <script src="js/app.js"></script>
   </body>
 </html>

@@ -28,6 +28,7 @@ header .shop a img {
   margin-right: 10px;
 }
 
+
 header .shop a p,
 header .achats a p {
   color: #AA7258;
@@ -140,6 +141,51 @@ nav .item:hover ul {
   display: block;
 }
 
+/*******
+intro
+********/
+
+.container{
+  background-image: url(../images/hygiene/hy.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.presentation  .titre{
+  height: 350px;
+  margin: 0 auto;
+  width: 800px;
+}
+.presentation .titre h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  color: #000000a1;
+
+}
+
+.presentation .titre p{
+  text-align: center;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 26px;
+  color: #00000085;
+  margin-bottom: 25px;
+}
+
+.presentation a{
+  text-decoration: none;
+  float: right;
+  border: 2px solid #AA7258;
+  border-radius: 35px;
+  padding: 5px 10px;
+  color: black;
+  font-size: 14px;
+}
 
 
 /***********
@@ -156,9 +202,9 @@ main {
 main img {
   width : 200px;
   height: 200px;
-  padding : 10px;
-  border: black solid 2px;
+  padding : 20px;
   margin: 30px;
+  border-radius: 15px;
 }
 
 main div {
@@ -181,7 +227,7 @@ FOOTER
 ***********/
 
 footer {
-  background-color: #ffcccc7a;
+  background-color: #caa1a15c;
   margin-top: 50px;
 }
 
