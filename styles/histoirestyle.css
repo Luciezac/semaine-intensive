@@ -1,7 +1,7 @@
-
 /*********
   HEADER
 ***********/
+
 
 header {
   display: flex;
@@ -9,32 +9,55 @@ header {
   padding: 40px 20px 60px;
 }
 
-header .shop,
+header .contact,
 header .achats {
   width: 25%;
+  font-family: 'PT Sans', sans-serif;
 }
 
 header .logo {
   width: 50%;
 }
 
-header .shop a {
+header .logonet{
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
+header .contact {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
   align-items: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
-header .shop a img {
-  margin-right: 10px;
+header .call {
+  margin-left: 20px;
 }
 
-header .shop a p,
+header .contact a  {
+  display: block;
+  margin-right: 0px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header .contact  img {
+  margin-left: 10px;
+  width: 32px;
+}
+
+header .contact a p,
 header .achats a p {
   color: #AA7258;
   font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
 }
 
-header .shop a p:hover,
+
+header .contact a p:hover,
 header .achats a p:hover {
   color: #FF9900;
 }
@@ -57,11 +80,13 @@ header .achats .search img {
   width: 25px;
 }
 
+
 .account{
   border: 2px solid #AA7258;
   border-radius: 35px;
   padding: 5px 10px;
 }
+
 
 
 
@@ -94,6 +119,7 @@ nav p {
   background-color: #FFFFFF;
   color: #AA7258;
   will-change: auto;
+  font-family: 'PT Sans', sans-serif;
 }
 
 nav p:before {
@@ -121,6 +147,7 @@ nav ul li a {
   text-transform: uppercase;
   margin: 8px 0;
   line-height: 1.2;
+  font-family: 'PT Sans', sans-serif;
 }
 
 nav ul li a:hover {
@@ -151,16 +178,17 @@ main {
   display: flex;
   justify-content: flex-start space-around;
   align-items: flex-start;
-  height:440px;
+  height:515px;
   overflow:hidden;
 }
 
 main .explications{
   width: 50%;
-  background-color: #a08778;
-  color: white;
-  padding: 25px;
+  background-color: #ca959563;
+  color: #040404c9;
+  padding: 44px;
   text-align: justify;
+  font-family: 'PT Sans', sans-serif;
 }
 main .explications div{
   display: flex;
@@ -178,32 +206,38 @@ main .explications .crea img{
 }
 
 main .explications p{
-  padding : 5px;
+  padding: 15px;
+  line-height: 150%;
+}
+main .explications .crea p{
+  font-size: 17px;
+  padding : 8px;
   line-height: 150%;
 }
 
 main .presentation{
   width: 50%;
-  height: 440px;
+  height: 550px;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  position:relative; /* tjr mettre position relative ta race */
+  position:relative;
+  font-family: 'PT Sans', sans-serif;
 }
 
 article.presentation img{
-  height: 440px;
+  height: 550px;
   position: absolute;
 }
 
 main  article.presentation h1{
   border: 1px solid black;
   border-radius: 20px;
-  width: 400px;
+  width: 258px;
   color: black;
-  font-size: 40px;
-  padding: 40px;
+  font-size:23px;
+  padding: 43px;
   background-color: white;
   opacity: 0.5;
 }
@@ -211,7 +245,7 @@ main  article.presentation h1{
  .titre {
   position: relative;
   z-index: 100;
-  width:70%;
+  width:60%;
   background-color:#ffffff94;
   text-align:center;
   border-radius: 20px;
