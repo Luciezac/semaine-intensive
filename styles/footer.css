@@ -1,3 +1,4 @@
+
 /***********
 
 FOOTER
@@ -7,19 +8,28 @@ FOOTER
 footer {
   background-color: #caa1a15c;
   margin-top: 50px;
+  font-family: 'PT Sans', sans-serif;
+  padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 745px) {
+  footer {
+    text-align: center;
+  }
 }
 
 footer .footer {
    display: flex;
-   justify-content: center space-around;
+   justify-content: space-around;
    align-items: center;
-   margin-left: 140px;
-   margin-right: 140px;
+   flex-wrap: wrap;
+   padding: 0 80px;
 }
 
 footer .footer section {
-  padding: 30px;
-  width: 33%;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 footer span {
@@ -58,6 +68,12 @@ footer .newsletter p {
   line-height: 20px;
   margin-bottom: 25px;
   margin-top: 20px;
+}
+
+@media screen and (max-width: 745px) {
+  footer .newsletter p {
+    text-align: center;
+  }
 }
 
 footer .newsletter input{

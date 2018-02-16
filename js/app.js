@@ -1,9 +1,8 @@
 jQuery(document).ready(function($) {
   sliderHome();
   burgerMenu();
+  chatBox();
 });
-
-
 
 var sliderHome = function() {
   $('.carousel-newCollection').slick({
@@ -16,7 +15,6 @@ var sliderHome = function() {
     autoplaySpeed: 3000,
   });
 }
-
 
 var burgerMenu = function() {
   // Open nav
@@ -42,5 +40,22 @@ var burgerMenu = function() {
   // Open item
   $('nav .item p').on('click', function() {
     $(this).next().toggleClass('openCategory');
+  });
+}
+
+
+var chatBox = function() {
+  $('.chat-box .head-chat p').on('click', function() {
+    $('.chat-box').animate({
+        bottom: "0px"
+    }, 400);
+    $('.chat-box .close').removeClass('none');
+  });
+
+  $('.chat-box .close').on('click', function() {
+    $('.chat-box').animate({
+        bottom: "-310px"
+    }, 400);
+    $('.chat-box .close').addClass('none');
   });
 }

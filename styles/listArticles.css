@@ -1,0 +1,89 @@
+
+/*******
+intro
+********/
+
+.container-hygiene{
+  background-image: url(../images/hygiene/hy.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container-bavoir{
+  background-image: url(../images/bavoirs/bavoir.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.presentation  .titre{
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+.presentation .titre h1{
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: lighter;
+  text-align: center;
+  margin-bottom: 35px;
+  padding-top: 20px;
+  color: #000000a1;
+
+}
+
+.presentation .titre p{
+  text-align: center;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 30px;
+  color: #000000ed;
+  margin-bottom: 30px;
+}
+
+.presentation a{
+  text-decoration: none;
+  float: right;
+  border: 2px solid #ffffff;
+  border-radius: 35px;
+  padding: 7px 10px;
+  color: black;
+  font-size: 16px;
+  background-color: #ffffff6b;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+/***********
+
+main
+
+***********/
+
+main {
+  display: flex;
+  justify-content: flex-start space-around;
+  flex-wrap: wrap;
+  clear: both;
+  padding-bottom: 40px;
+}
+main img {
+  width : 200px;
+  height: 200px;
+  padding : 20px;
+  margin: 30px;
+  border-radius: 15px;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+}
+
+main div h5{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0px;
+  color: white;
+}

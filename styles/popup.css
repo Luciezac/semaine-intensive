@@ -4,71 +4,84 @@ ALERT
 
 *********/
 .alert {
-    color: white;
-    margin-bottom: 15px;
-    width: 400px;
-    height: 350px;
-    padding: 30px;
-    background-color: #d0b2b2e3;
-    border-radius: 4px;
-    position: fixed;
-    z-index: 10000;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-
+  color: white;
+  margin-bottom: 15px;
+  max-width: 400px;
+  min-width: 240px;
+  height: 350px;
+  padding: 30px;
+  background-color: #d0b2b2e3;
+  border-radius: 4px;
+  position: fixed;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
-
-
 .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 .closebtn:hover {
-    color: black;
+  color: black;
 }
 
 .poppin_content{
-width: 400px;
-height: 350px;
-padding: 30px;
-background-color: #aa7258;
-border-radius: 4px;
-position: fixed;
-left: 50%;
-top: 50%;
-transform: translate(-50%,-50%);
+  width: 400px;
+  height: 350px;
+  padding: 30px;
+  background-color: #aa7258;
+  border-radius: 4px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .contact{
-text-transform: uppercase;
-text-align: center;
-color: white;
-font-size: 14px;
-border-bottom: 1px solid white;
-padding-bottom: 30px;
-
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
 }
 
 p{
   font-size: 17px;
   text-align: center;
 }
+
 #first{
   margin-bottom: 20px;
-  margin-left: 45;
   float: left;
   border: none;
   color : #00000078;
+  width: calc(50% - 20px);
+  margin-top: 30px;
+}
 
+.m-r {
+  margin-right: 10px;
+}
+
+#firts label,
+#second label {
+  margin-top: 20px;
+}
+
+#first,
+#second {
+  display: flex;
+  flex-direction: column;
 }
 
 .clearboth{
@@ -84,18 +97,15 @@ p{
 }
 
 #button{
-margin-top: 35;
-margin-left: 145;
-border-radius: 90px;
-background-color: white;
-border: none;
-color:#aa7258 ;
-padding: 15px 40px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 12px;
-color : #00000078;
+  border-radius: 90px;
+  background-color: white;
+  border: none;
+  padding: 15px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  color : #00000078;
 }
 
 #button:hover{

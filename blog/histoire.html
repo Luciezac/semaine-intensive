@@ -3,26 +3,46 @@
   <head>
     <meta charset="utf-8"/>
     <title> Douce de Po</title>
-    <meta name="description" content="Description du site Douce de Po"/>
+    <meta name="description" content="puériculture made in france bébé accessoires artisanat cadeaux enfance repas sommeil hygiène "/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Mahee" rel="stylesheet">
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/histoirestyle.css">
+    <link rel="stylesheet" href="../styles/histoire.css">
+    <link rel="stylesheet" href="../styles/header-nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
   </head>
+
+
   <body>
     <header>
-      <div class="shop">
-        <a href="contact.html"> <p>Nous contacter</p> </a>
+      <div class="open-navMobile">
+        <img src="../images/burger.png">
+      </div>
+      <div class="contact">
+        <a href="contact.html">
+          <p class="call">Nous contacter</p>
+        </a>
+        <div class="logonet">
+          <a href="https://www.facebook.com/doucedepo.officiel/" title="Facebook"><img
+          src="../images/facebook.png" alt="Widget facebook"/></a>
+          <a href="https://www.instagram.com/pollennidoucedepo/" title="Instagram"><img
+          src="../images/instagram.png" alt="Widget instagram"/></a>
+          <a href="https://www.youtube.com/" title="Youtube"><img
+          src="../images/youtube.png" alt="Widget youtube"/></a>
+        </div>
       </div>
       <a href="../index.html" class="logo">
         <img src="../images/logosite.png" alt="logo de la marque Douce de Po">
       </a>
       <div class="achats">
-        <a href="#"><p>Ma Wishlist</p></a>
+        <a href="#"><p>Ma wishlist</p></a>
         <a href="#" class="account"><p>Mon compte</p></a>
         <a href="#" class="search"><img src="../images/loupe.png" alt="logo de la loupe"></a>
       </div>
     </header>
-
     <nav>
+      <img class="close-navMobile" src="../images/close.png">
       <div class='item'>
         <p>hygiène</p>
         <ul>
@@ -46,7 +66,7 @@
           <li><a href="#" title="Item">toudoux lapinous</a> </li>
         </ul>
       </div>
-      <div class='item' class="indexeleve">
+      <div class='item'>
         <p>accessoires</p>
         <ul>
           <li><a href="#" title="Item">porte clefs</a> </li>
@@ -56,9 +76,9 @@
           <li><a href="#" title="Item">protège carnet de santé</a> </li>
         </ul>
       </div>
-      <div class='item' class="indexeleve">
+      <div class='item'>
         <p>collection</p>
-        <ul class="indexeleve">
+        <ul>
           <li><a href="#" title="Item">aux pays des rêves</a> </li>
           <li><a href="#" title="Item">mille étoiles</a> </li>
           <li><a href="#" title="Item">douce brise</a> </li>
@@ -67,7 +87,7 @@
           <li><a href="#" title="Item">petit moussaillon</a> </li>
         </ul>
       </div>
-      <div class='item' class="indexeleve">
+      <div class='item'>
         <p>personnalisation</p>
         <ul>
           <li><a href="#" title="Item">Prénom en tissu</a> </li>
@@ -83,17 +103,16 @@
           <img src="../images/histoire/crea.png" alt="photo de la créatrice">
           <p>Polleni est une styliste de 32 ans, elle est diplômée d’une école de mode. Suite à solide expérience de six ans, elle a décidé de créer sa propre société en région parisienne : Douce de Po.</p>
         </div>
-        <p>Polleni, après son  a intégré une école spécialisée pour se former. En effet elle a suivi des études de stylisme à l’ESMOD, l’Ecole Supérieure des Arts et des Techniques de la Mode.
-        Son cursus, qui a duré trois ans, est très formateur dans le domaine du stylisme et du modélisme. De par son secteur d’activité, l’ESMOD participe à des concours de mode d’envergure locale voire internationale. La combinaison des aspects théoriques et pratiques lui à permis de trouver sa voie et de déterminer ce qu’elle voulais faire. C’est lors de sa dernière année au sein de cette école qu’elle a opté pour une spécialisation enfant. Après avoir travaillé dans la grande distribution et à la naissance de son fil elle décide de développer sa propre activité en se consacrant à l’artisanat.</p>
+        <p>Polleni, après son  a intégré une école spécialisée pour se former. En effet elle a suivi des études de stylisme à l’ESMOD, l’Ecole Supérieure des Arts et des Techniques de la Mode.</br>Son cursus, qui a duré trois ans, est très formateur dans le domaine du stylisme et du modélisme. De par son secteur d’activité, l’ESMOD participe à des concours de mode d’envergure locale voire internationale. La combinaison des aspects théoriques et pratiques lui à permis de trouver sa voie et de déterminer ce qu’elle voulais faire. </br>C’est lors de sa dernière année au sein de cette école qu’elle a opté pour une spécialisation enfant. Après avoir travaillé dans la grande distribution et à la naissance de son fil elle décide de développer sa propre activité en se consacrant à l’artisanat.</p>
       </article>
       <article class="presentation">
         <img src="../images/histoire/magasin2.png" alt="magasin">
         <div class="titre">
-          <h1>Découvrir Douce de Po durant 3 jours d'exposition à Brie Compte Robert au Safran Créatif Market</h1>
+          <a href="#"><h1>Découvrir Douce de Po durant 3 jours d'exposition à Brie Compte Robert au Safran Créatif Market</h1></a>
+
         </div>
     </article>
     </main>
-
 
 
     <footer>
@@ -122,5 +141,8 @@
       </div>
     </footer>
 
+
+   <script src="../js/vendor/jquery-3.3.1.min.js"></script>
+   <script src="../js/app.js"></script>
   </body>
 </html>

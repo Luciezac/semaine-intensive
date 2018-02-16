@@ -1,0 +1,105 @@
+/***************
+
+MAIN
+
+****************/
+
+main {
+  display: flex;
+  justify-content: flex-start space-around;
+  align-items: flex-start;
+  height:515px;
+  overflow:hidden;
+}
+
+@media screen and (max-width: 765px) {
+  main {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+main .explications{
+  background-color: #ca959563;
+  color: #040404c9;
+  padding: 44px;
+  text-align: justify;
+  font-family: 'PT Sans', sans-serif;
+}
+main .explications div{
+  display: flex;
+  justify-content: flex-start space-around;
+  border-bottom: 1px solid white;
+
+}
+
+main .explications .crea img{
+  width: 130px;
+  height: 120px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+main .explications p{
+  padding: 15px;
+  line-height: 150%;
+}
+main .explications .crea p{
+  font-size: 17px;
+  padding : 8px;
+  line-height: 150%;
+}
+
+main .presentation,
+main .explications {
+  width: 50%;
+}
+
+@media screen and (max-width: 765px) {
+  main .presentation,
+  main .explications {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+main .presentation{
+  height: 550px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  font-family: 'PT Sans', sans-serif;
+}
+
+article.presentation img{
+  height: 550px;
+  position: absolute;
+}
+
+main article.presentation h1{
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 271px;
+  color: black;
+  font-size:23px;
+  padding: 43px;
+  background-color: white;
+  opacity: 0.5;
+}
+
+.titre {
+  position: relative;
+  z-index: 100;
+  width:60%;
+  background-color:#ffffff94;
+  text-align:center;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 765px) {
+ .titre {
+   width: 400px;
+ }
+}
