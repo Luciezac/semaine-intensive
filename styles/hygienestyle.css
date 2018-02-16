@@ -1,3 +1,4 @@
+
 /*********
   HEADER
 ***********/
@@ -8,7 +9,7 @@ header {
   padding: 40px 20px 60px;
 }
 
-header .contact,
+header .shop,
 header .achats {
   width: 25%;
 }
@@ -17,44 +18,24 @@ header .logo {
   width: 50%;
 }
 
-header .logonet{
+header .shop a {
   display: flex;
-  justify-content: space-around;
-  margin-top: 19px;
-  margin-left: 12px;
-}
-
-header .contact {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
+  flex-direction: row;
   align-items: center;
-  font-family: 'PT Sans', sans-serif;
 }
 
-header .call {
-  margin-left: 20px;
+header .shop a img {
+  margin-right: 10px;
 }
 
-header .contact a  {
-  display: block;
-  margin-right: 0px;
-  font-family: 'PT Sans', sans-serif;
-}
 
-header .contact  img {
-  margin-left: 10px;
-  width: 32px;
-}
-
-header .contact a p,
+header .shop a p,
 header .achats a p {
   color: #AA7258;
   font-size: 16px;
-  font-family: 'PT Sans', sans-serif;
 }
 
-header .contact a p:hover,
+header .shop a p:hover,
 header .achats a p:hover {
   color: #FF9900;
 }
@@ -77,13 +58,11 @@ header .achats .search img {
   width: 25px;
 }
 
-
 .account{
   border: 2px solid #AA7258;
   border-radius: 35px;
   padding: 5px 10px;
 }
-
 
 
 /**********
@@ -96,7 +75,6 @@ nav {
   border-bottom: 1px solid #AA7258;
   padding: 10px 0;
   display: flex;
-  font-family: 'PT Sans', sans-serif;
   justify-content: space-around;
 }
 
@@ -116,7 +94,6 @@ nav p {
   background-color: #FFFFFF;
   color: #AA7258;
   will-change: auto;
-  font-family: 'PT Sans', sans-serif;
 }
 
 nav p:before {
@@ -184,6 +161,7 @@ intro
   text-transform: uppercase;
   font-weight: lighter;
   text-align: center;
+  margin-top: 20px;
   margin-bottom: 35px;
   padding-top: 20px;
   color: #000000a1;
@@ -194,21 +172,19 @@ intro
   text-align: center;
   font-size: 19px;
   text-align: justify;
-  line-height: 30px;
-  color: #000000ed;
-  margin-bottom: 30px;
+  line-height: 26px;
+  color: #00000085;
+  margin-bottom: 25px;
 }
 
 .presentation a{
   text-decoration: none;
   float: right;
-  border: 2px solid #ffffff;
+  border: 2px solid #AA7258;
   border-radius: 35px;
-  padding: 7px 10px;
+  padding: 5px 10px;
   color: black;
-  font-size: 16px;
-  background-color: #ffffff6b;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 14px;
 }
 
 
@@ -239,8 +215,7 @@ main div {
 main div h5{
   text-align: center;
   font-size: 15px;
-  margin-top: 0px;
-  color: white;
+  margin-top:  0px;
 }
 
 

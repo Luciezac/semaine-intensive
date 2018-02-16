@@ -1,3 +1,4 @@
+
 /*********
   HEADER
 ***********/
@@ -38,7 +39,6 @@ header .call {
 header .contact a  {
   display: block;
   margin-right: 0px;
-  font-family: 'PT Sans', sans-serif;
 }
 
 header .contact  img {
@@ -50,8 +50,6 @@ header .contact a p,
 header .achats a p {
   color: #AA7258;
   font-size: 16px;
-  font-family: 'PT Sans', sans-serif;
-
 }
 
 header .contact a p:hover,
@@ -95,7 +93,6 @@ nav {
   padding: 10px 0;
   display: flex;
   justify-content: space-around;
-  font-family: 'PT Sans', sans-serif;
 }
 
 nav .item {
@@ -114,7 +111,6 @@ nav p {
   background-color: #FFFFFF;
   color: #AA7258;
   will-change: auto;
-  font-family: 'PT Sans', sans-serif;
 }
 
 nav p:before {
@@ -142,8 +138,6 @@ nav ul li a {
   text-transform: uppercase;
   margin: 8px 0;
   line-height: 1.2;
-  font-family: 'PT Sans', sans-serif;
-
 }
 
 nav ul li a:hover {
@@ -158,8 +152,6 @@ nav ul {
   width: 100%;
   padding: 0 20px;
   left: 0;
-  font-family: 'PT Sans', sans-serif;
-
 }
 
 nav .item:hover ul {
@@ -186,10 +178,12 @@ titre
   text-transform: uppercase;
   font-weight: lighter;
   text-align: center;
+  margin-top: 20px;
   margin-bottom: 35px;
   padding-top: 20px;
-  color: white;
-  font-family: 'PT Sans', sans-serif;
+  color: white
+
+
 }
 
 .presentation .titre p{
@@ -198,21 +192,17 @@ titre
   text-align: justify;
   line-height: 26px;
   color: #fbf4eb;
-  font-family: 'PT Sans', sans-serif;
   margin-bottom: 25px;
 }
 
 .presentation a{
   text-decoration: none;
   float: right;
-  border: 2px solid #ffffff;
+  border: 2px solid #AA7258;
   border-radius: 35px;
-  padding: 7px 10px;
+  padding: 5px 10px;
   color: black;
-  font-size: 16px;
-  background-color: #ffffff6b;
-  font-family: 'PT Sans', sans-serif;
-
+  font-size: 14px;
 }
 
 
@@ -239,8 +229,6 @@ main div h5{
   text-align: center;
   font-size: 15px;
   margin-top:  5px;
-  font-family: 'PT Sans', sans-serif;
-  color: white;
 }
 
 
@@ -253,8 +241,6 @@ FOOTER
 footer {
   background-color: #caa1a15c;
   margin-top: 20px;
-  font-family: 'PT Sans', sans-serif;
-
 }
 
 footer .footer {

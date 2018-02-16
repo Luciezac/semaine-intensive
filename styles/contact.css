@@ -8,7 +8,6 @@ FORMULAIRE
   max-width: 1000px;
   padding: 50px;
   margin: 0 auto;
-  font-family: 'PT Sans', sans-serif;
 }
 
 .inputs {
@@ -27,7 +26,7 @@ FORMULAIRE
   padding-bottom: 25px;
   border-bottom: 1px solid grey;
   font-size: 30px;
-  font-family: 'PT Sans', sans-serif;
+
 }
 
 .formulaire p {
@@ -36,19 +35,17 @@ FORMULAIRE
   color: grey;
   font-size: 20px;
   padding: 15px;
-  font-family: 'PT Sans', sans-serif;
 }
 
 .formulaire div label {
   display: block;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 50px;
 }
 
 .inputBlock {
-  background: #fdf4f6c2;
-  border: #ffe8f666 solid 2px;
+  background: #fff2f5;
+  border: #ffe8f6 solid 2px;
   padding: 5px;
   margin: 25px 0;
   width: 260px;
@@ -56,8 +53,8 @@ FORMULAIRE
 }
 
 .inputBlock2{
-  background: #fdf4f6c2;
-  border: #ffe8f666 solid 2px;
+  background: #fff2f5;
+  border: #ffe8f6 solid 2px;
   padding: 5px;
   margin: 25px 0;
   width: 440px;
@@ -66,7 +63,7 @@ FORMULAIRE
 
 @media screen and (max-width: 545px) {
   .formulaire {
-    padding: 20px;
+    padding: 20px; 
   }
 
   .inputBlock2{
